@@ -12,3 +12,22 @@ header {
   text-align: center;
   padding: 30px 20px;
 }
+/* Main container */
+main {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Notice Card */
+.notice {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  border-left: 6px solid #ccc;
+}
+/* Border colors by type */
+.notice.urgent   { border-left-color: #e53935; }
