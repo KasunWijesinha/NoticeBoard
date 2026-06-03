@@ -31,3 +31,4 @@ main {
 }
 /* Border colors by type */
 .notice.urgent   { border-left-color: #e53935; }
+.notice.exam     { border-left-color: #1565c0; }
