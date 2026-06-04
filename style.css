@@ -33,3 +33,4 @@ main {
 .notice.urgent   { border-left-color: #e53935; }
 .notice.exam     { border-left-color: #1565c0; }
 .notice.event    { border-left-color: #2e7d32; }
+.notice.deadline { border-left-color: #f57f17; }
