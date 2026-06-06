@@ -38,3 +38,29 @@ main {
 .notice.exam     { border-left-color: #1565c0; }
 .notice.event    { border-left-color: #2e7d32; }
 .notice.deadline { border-left-color: #f57f17; }
+
+.dark {
+    background-color: #1e1e1e;
+    color: #f5f5f5;
+}
+
+.dark header {
+    background-color: #0d144d;
+}
+
+.dark .notice {
+    background-color: #2d2d2d;
+    color: #f5f5f5;
+}
+
+#themeBtn {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    border: none;
+    background: white;
+    padding: 8px 12px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+}
