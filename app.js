@@ -15,3 +15,6 @@ function showDateTime() {
 
     // Run now
     showDateTime();
+
+    // Update every second
+    setInterval(showDateTime, 1000);
