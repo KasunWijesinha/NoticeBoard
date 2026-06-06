@@ -18,3 +18,14 @@ function showDateTime() {
 
     // Update every second
     setInterval(showDateTime, 1000);
+
+    const themeBtn = document.getElementById("themeBtn");
+
+themeBtn.addEventListener("click", () => {
+    document.body.classList.toggle("dark");
+
+    themeBtn.textContent =
+        document.body.classList.contains("dark")
+            ? "☀️"
+            : "🌙";
+});
